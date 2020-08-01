@@ -1,0 +1,58 @@
+addproduct?count=0&label=A&price=100&section=1
+
+
+https://subscription.packtpub.com/book/web_development/9781783287314/1/ch01lvl1sec12/the-observer-patternCustom
+
+
+Customber
+
+type premium/normal
+segment
+
+Custom
+type premium/normal
+segment
+
+Email "''abc@eu.com""
+action "discount"
+subscription_segment 0
+type "normal"
+
+addsubscriber?Email=e@r.com&action=discount&subscription_segment=1&type=premium
+
+
+publishDiscount
+
+publishDiscount?percent=10&segment=2
+
+
+
+why premium
+Here premium
+undefined registered for discount notification
+whynormal
+Herenormal
+undefinedregistered for discount notification
+whynormal
+Herenormal
+undefinedregistered for discount notification
+
+
+
+http://localhost:2121/showproducts/
+http://localhost:2121/addproduct?count=100&label=%27AAAAA%27&price=1000&section=2
+
+
+http://localhost:2121/addsubscriber?Email=new@r.com&action=discount&subscription_segment=2&type=normal
+http://localhost:2121/publishdiscount?percent=10&segment=2&forusertype=normal
+
+new expires on
+http://localhost:2121/publishdiscount?percent=10&segment=2&expireson=''
+
+http://localhost:2121/addsubscriber?Email=new@r.com&action=discount&subscription_segment=2&type=normal&passwd=passwd
+
+
+
+http://localhost:2121/addDiscount?percent=10&segment=2&forusertype=normal&expirydate=15
+
+http://localhost:2121/generateBill?price=53&item=[{%22id%22:2,%22name%22:%22Blue%20Beanie%22,%22imageUrl%22:%22https://i.ibb.co/ypkgK0X/blue-beanie.png%22,%22price%22:18,%22quantity%22:1},{%22id%22:3,%22name%22:%22Brown%20Cowboy%22,%22imageUrl%22:%22https://i.ibb.co/QdJwgmp/brown-cowboy.png%22,%22price%22:35,%22quantity%22:1}]

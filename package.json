@@ -1,0 +1,60 @@
+{
+  "name": "complete-react-course",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/polyfill": "^7.7.0",
+    "@babel/register": "^7.7.4",
+    "axios": "0.18.0",
+    "connected-react-router": "6.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "5.9.2",
+    "firebase-admin": "^8.3.0",
+    "handlebars": "^4.5.3",
+    "history": "4.9.0",
+    "node-sass": "^4.11.0",
+    "nodemailer": "^6.4.1",
+    "puppeteer": "^2.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "6.0.1",
+    "react-router-dom": "5.0.0",
+    "react-scripts": "2.1.8",
+    "react-stripe-checkout": "2.6.3",
+    "redux": "4.0.1",
+    "redux-logger": "3.0.6",
+    "redux-persist": "5.10.0",
+    "redux-thunk": "2.3.0",
+    "reselect": "4.0.0",
+    "styled-components": "4.2.0"
+  },
+  "scripts": {
+    "start": "PORT=9000 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "@babel/core": "^7.7.4",
+    "@babel/polyfill": "^7.7.0",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/register": "^7.7.4",
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "^1.18.2"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "proxy": "http://localhost:2121"
+}
